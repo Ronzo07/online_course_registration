@@ -4,7 +4,6 @@
 
 **Date**: 2024-06-08
 
-<!-- **Video Overview**: [Video Overview Link](https://youtu.be/7PUDlp7VfoE) -->
 
 This document outlines the design of an online course registration database for a university. The database aims to streamline course registration processes by providing a central platform for students, instructors, and administrators.
 
@@ -109,3 +108,4 @@ The system relies on a relational database model with the following core entitie
 - The current design does not explicitly handle course waitlists or priority enrollment functionalities. These features might require additional tables and logic.
 - Representing complex prerequisite structures might require triggers or stored procedures within the database.
 - Also, a schedule details can be added in the future.
+
